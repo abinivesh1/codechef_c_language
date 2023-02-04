@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main() {
+	int T;
+	scanf("%d",&T);
+	while(T>=1 && T<=100)
+	{
+	 T--;
+	int X;
+	scanf("%d",&X);
+	int Y;
+	scanf("%d",&Y);
+	if(X>=1 && Y<=100) 
+    {
+        if(X>Y)
+	{
+	    printf("\n SECOND");
+	}
+	else if(Y==X)
+	{
+	    printf("\n ANY");
+	}
+	else if(Y>X)
+	{
+	    printf("\n FIRST");
+	}
+	}
+	
+}
+}
+
