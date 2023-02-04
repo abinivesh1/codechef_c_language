@@ -1,0 +1,24 @@
+
+
+#include<stdio.h>
+int main()
+{
+    int T;
+    scanf("%d",&T);
+    while(T>=1 && T<=10)
+    {
+        T--;
+        int X;
+        scanf("%d",&X);
+        if(X>98 && X<=103)
+        {
+            printf("YES");
+        }
+        if(X>93 && X<=98)
+        {
+            printf("NO");
+        }
+        printf("\n");
+    }
+    return 0;
+}
